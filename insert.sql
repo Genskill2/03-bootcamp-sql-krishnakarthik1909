@@ -6,7 +6,7 @@ INSERT into subjects(name) values ("Productivity");
 INSERT into subjects(name) values ("Psychology");
 INSERT into subjects(name) values ("Politics");
 INSERT into subjects(name) values ("History");
-INSERT into subjects(name) values ("GO");
+INSERT into subjects(name) values ("Go");
 
 INSERT into publisher(name,country) values ("PHI","India");
 INSERT into publisher(name,country) values ("Harper","USA");
@@ -16,8 +16,8 @@ INSERT into publisher(name,country) values ("Del Rey","UK");
 INSERT into publisher(name,country) values ("Vintage","UK");
 
 INSERT into books(title, publisher) values ("The C Programming Language",1);
-INSERT into books(title, publisher) values ("The GO Programming Language",1);
-INSERT into books(title, publisher) values ("The UNIX Programming Language",1);
+INSERT into books(title, publisher) values ("The Go Programming Language",1);
+INSERT into books(title, publisher) values ("The UNIX Programming Environment",1);
 INSERT into books(title, publisher) values ("Cryptonomicon",2);
 INSERT into books(title, publisher) values ("Deep Work",3);
 INSERT into books(title, publisher) values ("Atomic Habits",4);
